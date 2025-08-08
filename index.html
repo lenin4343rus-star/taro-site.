@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Гадание на Таро</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #1c1b1f;
+      color: #f5f5f5;
+    }
+    header {
+      background: #2a2730;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin: 0;
+      color: #e0b589;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #e0b589;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1601297183306-55f66a682dfd?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      padding: 2rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      max-width: 700px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 1rem;
+    }
+    section {
+      padding: 4rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    .card {
+      background: #2e2b35;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+    .card h3 {
+      color: #e0b589;
+      margin-top: 0;
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background: #2a2730;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 768px) {
+      .hero {
+        height: 50vh;
+      }
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+      .services {
+        grid-template-columns: 1fr;
+      }
+      nav a {
+        display: inline-block;
+        margin: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Магия Таро</h1>
+    <nav>
+      <a href="#services">Услуги</a>
+      <a href="#about">Обо мне</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+  <div class="hero">
+    <h2>Откройте тайны будущего с помощью Таро — индивидуальные расклады и советы</h2>
+  </div>
+  <section id="services">
+    <h2>Услуги</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1600345986254-f1b8e49d9877?auto=format&fit=crop&w=800&q=80" alt="Любовный расклад">
+        <h3>Любовный расклад</h3>
+        <p>Понимание отношений, перспектив, скрытых чувств партнёра и будущего пары.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1620668891888-9ad580248885?auto=format&fit=crop&w=800&q=80" alt="Карьерный путь">
+        <h3>Карьерный путь</h3>
+        <p>Анализ текущей работы, поиск призвания, вопросы о смене деятельности.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1621293954905-e89beea3ed87?auto=format&fit=crop&w=800&q=80" alt="Расклад на ситуацию">
+        <h3>Расклад на ситуацию</h3>
+        <p>Помощь в сложной ситуации, выявление причин и возможных последствий.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=800&q=80" alt="Один вопрос">
+        <h3>Ответ на один вопрос</h3>
+        <p>Краткий, но точный ответ на конкретный волнующий вопрос.</p>
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <h2>Обо мне</h2>
+    <p>Меня зовут Анастасия, я профессиональный таролог с 8-летним опытом. Помогаю людям найти ответы, понять себя и изменить жизнь к лучшему с помощью карт Таро.</p>
+    <img src="https://images.unsplash.com/photo-1598961293364-2675ff8e2b86?auto=format&fit=crop&w=800&q=80" alt="Таролог Анастасия" style="width:100%; max-width:600px; border-radius:1rem; margin-top:1rem;">
+  </section>
+  <section id="contact">
+    <h2>Контакты</h2>
+    <p>Для записи на сеанс напишите мне в WhatsApp или Telegram:</p>
+    <ul>
+      <li>WhatsApp: <a href="https://wa.me/71234567890" style="color:#e0b589;">+7 (123) 456-78-90</a></li>
+      <li>Telegram: <a href="https://t.me/yourusername" style="color:#e0b589;">@yourusername</a></li>
+    </ul>
+  </section>
+  <footer>
+    &copy; 2025 Магия Таро. Все права защищены.
+  </footer>
+</body>
+</html>
